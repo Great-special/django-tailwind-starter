@@ -11,6 +11,9 @@ DEBUG = False
 
 ALLOWED_HOSTS = ['starter-prod.eba-udutfh7q.af-south-1.elasticbeanstalk.com']
 
+CSRF_TRUSTED_ORIGINS = [
+    'https://starter-prod.eba-udutfh7q.af-south-1.elasticbeanstalk.com',
+]
 
 # Application definition
 
